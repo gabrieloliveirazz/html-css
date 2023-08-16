@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Imagem dinámica</h1>
+    <p>Testes de diferentes tamanhos de imagens.</p>
+    <source media="(max-width: 1050px)" srcset="ex011/imagens/g-grande.png" type="image/png">
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audio em HTML5</p>
+    <audio preload="metadata" controls loop>
+        <source src="audio/lazywalk-chell.mp3" type="audio/mpeg">
+        <source src="audio/lazywalk-chell.ogg" type="audio/ogg">    
+        <p>Infelizmente seu navegador não consegue reproduzir audios.</p><a href="audio/lazywalk-chell.mp3">Clique aqui para baixar o arquivo</a>
+    </audio>  
+</body>
+</html>

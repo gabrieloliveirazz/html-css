@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.Northern-Lights-Beach-1-hex { color: #012340; }
+.Northern-Lights-Beach-2-hex { color: #025939; }
+.Northern-Lights-Beach-3-hex { color: #027333; }
+.Northern-Lights-Beach-4-hex { color: #03A63C; }
+.Northern-Lights-Beach-5-hex { color: #04D939; }
+
+/* Color Theme Swatches in RGBA */
+.Northern-Lights-Beach-1-rgba { color: rgba(1, 34, 63, 1); }
+.Northern-Lights-Beach-2-rgba { color: rgba(1, 89, 57, 1); }
+.Northern-Lights-Beach-3-rgba { color: rgba(2, 114, 51, 1); }
+.Northern-Lights-Beach-4-rgba { color: rgba(3, 165, 60, 1); }
+.Northern-Lights-Beach-5-rgba { color: rgba(4, 216, 57, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Northern-Lights-Beach-1-hsla { color: hsla(208, 96, 12, 1); }
+.Northern-Lights-Beach-2-hsla { color: hsla(157, 96, 17, 1); }
+.Northern-Lights-Beach-3-hsla { color: hsla(146, 96, 22, 1); }
+.Northern-Lights-Beach-4-hsla { color: hsla(140, 96, 33, 1); }
+.Northern-Lights-Beach-5-hsla { color: hsla(135, 96, 43, 1); }

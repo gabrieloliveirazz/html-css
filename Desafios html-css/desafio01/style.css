@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightgreen
+}
+
+main {
+    background-color: white;
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.281);
+    padding: 10px;
+    
+}
+
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.842), rgb(1, 176, 1), rgb(57, 148, 57));
+    color: white;
+    padding: 10px;
+    margin: -8px -8px 0px;
+    text-align: center;
+}
+
+ul#menu {
+    padding: 0px 1px;
+    margin: 0px 0px;
+    text-align: justify;
+}
+
+ul#menu > li {
+    display: inline;
+}
+
+ul#menu > li > a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+ul#menu > li > a:hover {
+    background-color: rgba(211, 211, 211, 0.507);
+    border-radius: 2px 2px;
+}
+
+.box{
+    background-image: linear-gradient(to right, lightgreen, white);
+}
+
+main#saber-mais {
+    background-color: lightgreen;
+    padding: -9px;
+    margin: auto;
+    padding: 10px;
+    height: 600px;
+
+}
+
+main > h1#extra {
+    background-color: darkgreen;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    margin: -25px -10px 10px -10px;
+    text-align: start;
+    width: -10px;
+    padding: 5px 0px 5px 5px;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+picture#video {
+    background-color: green;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px 0px 30px 0px;
+}
+
+main > ul#parte1 {
+    text-align: center;
+    display: flex;
+    display: inline;
+}
+
+main > ul#parte2 {
+    display: flex;
+    text-align: center;
+    display: inline;
+}
+
+footer {
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    margin: 20px -8px -8px -8px;
+}
+
+div#lista {
+    display: flex;
+}
+
+div#lista > ul#l1 {
+    text-align: left;
+}
+
+div#lista > ul#l2 {
+    text-align: right;
+}
+
+p#final {
+    text-align: center;
+}
+
+a.links {
+    text-decoration: none;
+    color: darkgreen;
+    background-color: rgb(219, 255, 219);
+    font-weight: bold;
+}
+
+a.links-footer {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+b {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+p#final {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

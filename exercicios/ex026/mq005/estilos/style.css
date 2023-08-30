@@ -28,13 +28,27 @@ menu > ul {
 }
 
 menu > ul > li > a {
-    display:block;
+    display: none;
     padding: 10px;
     text-decoration: none;
     text-align: center;
     background-color: rgb(87, 87, 87);
     color: white;
     border-top: 2px solid black;
+}
+
+i#burguer {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
 }
 
 menu > ul > li > a:hover {
